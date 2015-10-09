@@ -1,0 +1,291 @@
+.user-wrapper {
+	width: 1000px;
+	min-height: 800px;
+	border: 1px solid #e8e8e8;
+	margin: 30px auto 0 auto;
+	overflow: hidden;
+}
+
+.left-block {
+	width: 750px;
+	float: left;
+	padding: 20px 0px 20px 25px;
+}
+
+.right {
+	width: 195px;
+	float: right;
+}
+
+.types i, .types span {
+	color: #acadb1;
+}
+
+.types button:hover i, .types button:hover span, .types button.active span, .types button.active i {
+	color: #ff695e;
+}
+
+button.active.ui.inverted.red.basic.button {
+	box-shadow: 0 0 0 2px #ff392b inset!important;
+}
+
+.map {
+	width: 700px;
+	margin-top: 10px;
+}
+
+.types a button span, .types a button i {
+	font-size: 25px !important;
+}
+
+.types button {
+	padding-top: 22px !important;
+}
+
+.types {
+	overflow: hidden;
+	height: 98px;
+	width: 700px;
+	padding: 14px 0 14px 0;
+	background-color: rgba(253, 253, 253, 1);
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 10px;
+}
+
+.types a {
+	display: block;
+	float: left;
+	margin-left: 85px;
+	overflow: hidden;
+}
+
+.my-message {
+	height: 220px;
+	border: 1px solid #e8e8e8;
+	width: 700px;
+	padding: 10px 5px 0 10px;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.ghost {
+	width: 100%;
+	height: 98px;
+	display: none;
+}
+
+textarea {
+	width: 562px;
+    height: 158px;
+    resize: none;
+}
+
+.my-sidebar {
+	width: 115px;
+	float: right;
+	height: 158px;
+	border: 3px dashed #888;
+}
+
+
+.my-sidebar i.icon {
+	font-size: 23px;
+	margin: 13px 0 0 3px;
+}
+
+.people {
+	width: 363px;
+	height: 45px;
+	float: left;
+}
+
+.people img {
+	width: 40px;
+	height: 40px;
+}
+
+.people i.add.circle {
+    border: 3px dashed #888;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    line-height: 34px;
+}
+
+button.green {
+	margin-left: 5px !important;
+}
+
+.ui.list.info-list {
+	width: 700px;
+	overflow: hidden;
+}
+
+.ui.list.info-list .content {
+	width: 700px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.ui.list.info-list .item {
+	width: 672px;
+	padding: 10px 0 10px 0 !important;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.ui.list.info-list .item .content {
+	box-sizing: border-box;
+	padding-right: 8px !important;
+	padding-left: 15px;
+	float: right;
+	width: 636px;
+}
+
+h2 {
+	display: block;
+	width: 100px;
+	margin: 10px auto 0 auto !important;
+}
+
+.ui.red.segment {
+	height: 596px;
+	overflow: auto;
+	width: 700px;
+}
+
+div.ui.buttons {
+	margin-top: 30px;
+}
+
+.extra.content {
+	text-align: right;
+}
+
+.personal {
+	height: 165px;
+}
+
+.personal a {
+	width: 81px;
+	float: left;
+	text-align: center;
+}
+
+.personal img {
+	display: block;
+	margin: 20px auto 10px auto;
+}
+
+.right-block {
+	display: block;
+	width: 245px;
+	height: 1000px;
+	float: right;
+	background-color: rgb(243, 244, 245);
+	border-left: 1px #eee solid;
+}
+
+.sign {
+	border-top: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.sign div, .sign a {
+	width: 81px;
+	float: left;
+	text-align: center;
+}
+
+.sign a {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.chat .head {
+	height: 60px;
+	background-color: #4183c4;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.chat .head .channel {
+	margin-top: 8px;
+}
+
+.channel a {
+	text-align: center;
+	width: 81px;
+	float: left;
+	display: block;
+}
+
+.channel i.icon {
+	color: white;
+	font-size: 23px;
+}
+
+.item .description {
+	margin: 6px 0 6px 0 !important;
+}
+
+.communicators {
+	height: 653px;
+	background-color: white;
+	width: 245px;
+	box-sizing: border-box;
+	padding: 15px 0 0 10px;
+}
+
+
+i.icons i.icon{
+	font-size: 20px
+}
+
+
+.ui.comments .reply.form textarea {
+	height: 2em !important; 
+}
+
+i.small.icons {
+	line-height: 16px !important;
+}
+
+.side-bar {
+	float: right;
+	text-align: right;
+	color: rgba(0,0,0,.4);
+    font-size: .875em;
+}
+
+#wrapper .go-to-help.hide, #wrapper .response.hide, #wrapper .distance.hide  {
+	display: none;
+}
+
+#wrapper .distance {
+	text-align: right;
+}
+
+.more {
+	text-align: right;
+	margin-top: -26px;
+	color: #888;
+	cursor: pointer;
+}
+
+.deliver-form {
+	margin-top: 15px;
+}
+
+.deliver {
+	width: 546px !important;
+}

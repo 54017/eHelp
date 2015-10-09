@@ -1,0 +1,186 @@
+.swiper-container {
+	width: 100%;
+	height: 650px;
+}
+
+.swiper-slide.one {
+	background: url(../images/slide-one.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% auto;
+}
+
+.swiper-slide.two {
+	background: url(../images/question.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% auto;
+}
+
+.swiper-slide.three {
+	background: url(../images/help.png) no-repeat;
+	background-position: 80% 50%;
+	background-size: 100% auto;
+}
+
+.swiper-slide.four {
+	background: url(../images/save.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% auto;
+}
+
+.slide-text {
+	margin: 100px 0 0 100px;
+	overflow: hidden;
+	width: 400px;
+	display: inline-block;
+	float: left;
+}
+
+.slide-text p {
+	font-size: 18px;
+}
+
+.via-title {
+	line-height: 0;
+	text-indent: 50px;
+}
+
+.map {
+	height: 80%;
+	width: auto;
+	display: block;
+	float: right;
+	margin: 50px 100px 0 0;
+}
+
+.first-text {
+	margin-top: 40px;
+}
+
+.meaning {
+	display: block;
+	width: 550px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 30px;
+	border: 2px solid white;
+	margin-top: 100px;
+	padding: 32px 60px 40px 60px;
+	text-align: center;
+	float: right;
+}
+
+.two .meaning, .four .meaning {
+	margin-right: 80px;
+}
+
+.three .meaning {
+	float: left;
+	margin-left: 40px;
+}
+
+.meaning p {
+	font-size: 18px;
+	text-indent: 30px;
+}
+
+.meaning:hover {
+	border-color: #4183c4;
+}
+
+.tabs {
+	width: 980px;
+	margin: 0 auto;
+	height: 180px;
+	margin-top: 30px;
+}
+
+.tabs a {
+	display: block;
+	width: 326px;
+	height: 150px;
+	float: left;
+	text-align: center;
+}
+
+.question i.book.icon:hover {
+	box-shadow: 0 0 0 .1em rgba(165,103,64,.5) inset;
+}
+
+.heart i.heart.icon:hover {
+	box-shadow: 0 0 0 .1em rgba(220,40,41,.5) inset;
+}
+
+.users i.users.icon:hover {
+	box-shadow: 0 0 0 .1em rgba(27,181,173,.5) inset;
+}
+
+.tabs a p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+h1.functions-bar {
+	display: block;
+	width: 180px;
+	margin: 30px auto 0 auto;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+
+.blocks {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.blocks a {
+	display: block;
+	width: 420px;
+	height: 130px;
+	float: left;
+	color: #888;
+	font-size: 12px;
+	padding: 0 0 0 30px;
+	border: 2px solid #eaedef;
+	background-color: #FDFEFF;
+	margin: 10px;
+	box-sizing: content-box !important;
+}
+
+.blocks i.icon {
+	color: rgba(34, 196, 133, 1);
+	font-size: 70px;
+	line-height: 126px;
+
+}
+
+.blocks a:hover {
+	color: rgba(34, 196, 133, 1);
+	border: 2px solid rgba(34, 196, 133, 1);
+}
+
+.text {
+    float: right;
+    height: 80px;
+    width: 280px;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    margin: 25px 20px 0 0;
+    padding-left: 20px;
+}
+
+.text span:nth-child(1) {
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ui.segments {
+	width: 1000px;
+	margin: 30px auto 0 auto !important;
+}
+
+.text p {
+	margin-top: 10px;
+	color: #333;
+}

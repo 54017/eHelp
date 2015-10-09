@@ -1,0 +1,55 @@
+.swiper-container {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 400px !important;
+	height: 400px !important;
+}
+
+.swiper-slide img {
+	width: 400px;
+	height: 214px;
+}
+
+.swiper-slide p {
+	text-indent: 20px;
+}
+
+h2 {
+	margin-bottom: 5px !important;
+}
+
+.button-group {
+	width: 1000px;
+	margin: 30px auto 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.button-group button {
+	width: 100px;
+	height: 100px;
+	padding: 31px 0 0 31px !important;
+	margin: 20px auto 0 auto !important;
+	display: block;
+}
+
+.button-group i.icon {
+	font-size: 50px;
+}
+
+.my-idea, .my-product, .my-will {
+	overflow: hidden;
+	width: 333px;
+	float: left;
+}
+
+
+.my-idea h3, .my-product h3, .my-will h3 {
+	color: #57595e;
+}

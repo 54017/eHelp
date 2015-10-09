@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/user.css">
+	<link rel="stylesheet" type="text/css" href="../css/semantic.min.css">
+</head>
+<body class="user-page">
+	<div class="fix-groups">
+		<a class="download-bt">
+			<i class="download icon"></i>
+			<br>
+			<span>下载</span>
+		</a>
+		<a class="female-bt">
+			<i class="female icon"></i>
+			<br>
+			<span>客服</span>
+		</a>
+	</div>
+	<div class="banner">
+		<div class="my-content">
+			<a class="logo" href="index.html">
+				<img src="../images/logo.png">
+			</a>			<a class="item" href="index.html">易助首页</a>
+			<a class="item" href="function.html">体系架构</a>
+			<a class="item" href="culture.html">文化理念</a>
+			<a class="item" href="help.html">帮助中心</a>
+			<a class="item" href="we.html">关于我们</a>
+			<a class="item" href="signup.html">
+				个人中心
+				<i class="caret down icon"></i>
+			</a>
+		</div>
+	</div>
+	<div class="user-wrapper">
+		<div class="left-block">
+			<div class="ghost"></div>
+			<div class="types">
+				<a class="question" href="javascript:void(0)">
+					<button class="question-bt ui inverted red basic button active">
+						<i class="empty question icon"></i>
+						<span>提问</span>
+					</button>
+				</a>
+				<a class="help" href="javascript:void(0)">
+					<button class="help-bt ui inverted red basic button">
+						<i class="heart icon"></i>
+						<span>求助</span>
+					</button>
+				</a>
+				<a class="save" href="javascript:void(0)">
+					<button class="save-bt ui inverted red basic button">
+						<i class="users icon"></i>
+						<span>求救</span>
+					</button>
+				</a>
+			</div>
+			<div class="my-message">
+				<textarea class="my-textarea"></textarea>
+				<div class="my-sidebar">
+					<a href="javascript:void(0)">
+						<i class="camera retro icon"></i>
+						<span>添加照片</span>
+					</a>
+					<a href="javascript:void(0)">
+						<i class="film icon"></i>
+						<span>添加视频</span>
+					</a>
+					<a href="javascript:void(0)">
+						<i class="unmute icon"></i>
+						<span>添加语音</span>
+					</a>
+					<a href="javascript:void(0)">
+						<i class="marker icon"></i>
+						<span>添加地点</span>
+					</a>
+				</div>
+				<div class="people">
+					<img src="../images/logo.png">
+					<i class="add circle icon"></i>
+				</div>
+				<select class="ui dropdown">
+					<option value="">悬赏爱心币</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+				</select>
+				<button class="ui green button">提交</button>
+			</div>
+			<div class="map hide">
+				<img src="http://restapi.amap.com/v3/staticmap?location=113.318977,23.114155&zoom=10&size=750*300&markers=mid,,A:116.481485,39.990464&key=ee95e52bf08006f63fd29bcfbcf21df0">
+			</div>
+			<h2 class="state">提问动态</h2>
+			<div class="ui red segment" id="wrapper">
+				<div class="ui comments">
+					<h3 class="ui dividing header">comments</h3>
+					<div class="comment">
+						<a class="avatar">
+							<img src="../images/li.jpg">
+						</a>
+						<div class="content">
+							<a href="" class="author">
+								liyang
+								<i class="small icons">
+									<i class="user icon"></i>
+								    <i class="corner check circle icon"></i>
+								</i>	
+							</a>
+							<div class="metadata">
+								<span class="date">
+									Today at 9:00 am
+								</span>
+								<a href="">关注TA</a>
+							</div>
+							<div class="side-bar">
+								<span class="item-state">进行中</span>
+								<span class="right floated">
+        							10爱心币
+      							</span>
+      						</div>
+							<div class="text">
+								dasdasdsad
+							</div>
+							<div class="actions">
+								<a class="reply">
+									评论
+								</a>
+								<a class="response hide">
+									响应
+									<i class="arrow heart icon"></i>
+								</a>
+        						<a class="go-to-help hide">
+        							<i class="right arrow circle icon"></i>
+        							前往帮助&nbsp
+        						</a>
+        						<a class="distance hide floated right">
+        							0.2km
+        						</a>
+							</div>
+						</div>
+						<div class="comments second">
+							<div class="ui form deliver-form">
+								<div class="more floated right">
+								</div>
+								<div class="field">
+									<input type="text" class="deliver">
+								 	<button class="ui inverted green button active">发表</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment">
+						<a class="avatar">
+							<img src="../images/li.jpg">
+						</a>
+						<div class="content">
+							<a href="" class="author">liyang</a>
+							<div class="metadata">
+								<span class="date">
+									Today at 9:00 am
+								</span>
+								<a href="">关注TA</a>
+							</div>
+							<div class="side-bar">
+								<span class="item-state">进行中</span>
+								<span class="right floated">
+        							10爱心币
+      							</span>
+      						</div>
+							<div class="text">
+								dasdasdsad
+							</div>
+							<div class="actions">
+								<a class="reply">
+									评论
+								</a>
+								<a class="response hide">
+									响应
+									<i class="arrow heart icon"></i>
+								</a>
+        						<a class="go-to-help hide">
+        							<i class="right arrow circle icon"></i>
+        							前往帮助&nbsp
+        						</a>
+        						<a class="distance hide floated right">
+        							0.2km
+        						</a>
+							</div>
+						</div>
+						<div class="comments second">
+							<div class="comment">
+						<a class="avatar">
+							<img src="../images/li.jpg">
+						</a>
+						<div class="content">
+							<a href="" class="author">liyang</a>
+							<div class="metadata">
+								<span class="date">
+									Today at 9:00 am
+								</span>
+								<a href="">关注TA</a>
+							</div>
+							<div class="text">
+								da萨达开始打卡睡觉的i 阿萨德计算机嗲劲似的爱死嗲就是低价啊时间嗲集散地就爱打家劫舍地a s d ji i q di qi d w ni q去问候都打瞌睡的袋鼠袋师弟爱上打家劫舍第几啊似的爱死嗲世界第九i a j di j si d j q wo i j do q w fdnqqi
+							</div>
+						</div>
+						<div class="ui form deliver-form">
+						<div class="more floated right">
+							<i class="dropdown icon"></i>更多评论
+						</div>
+							<div class="field">
+								<input type="text" class="deliver">
+								 <button class="ui inverted green button active">发表</button>
+							</div>
+						</div>
+					</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui buttons">
+  				<button class="ui positive button">提问</button>
+  				<div class="or"></div>
+  				<button class="ui button">回答</button>
+			</div>
+			<div class="palette">
+				<canvas class="my-canvas"></canvas>
+			</div>
+		</div>
+		<div class="right-block">
+			<div class="personal">
+				<img class="ui tiny circular image" src="../images/head-image.png">
+				<a href="">
+					<p>100</p>
+					<p>爱心币</p>
+				</a>
+				<a href="">
+					<p>100</p>
+					<p>积分</p>
+				</a>
+				<a href="">
+					<p>100</p>
+					<p>信誉值</p>
+				</a>
+			</div>
+			<div class="sign">
+				<div class="date">
+					<p>周五</p>
+					<p>9.11</p>
+				</div>
+				<a href="" class="sign-bt">签到</a>
+				<div class="times">
+					<p>0</p>
+					<p>Days</p>
+				</div>
+			</div>
+			<div class="chat">
+				<div class="head">实时沟通
+					<div class="channel">
+						<a href="">
+							<i class="comments icon"></i>
+						</a>
+						<a href="">
+							<i class="user icon"></i>
+						</a>
+						<a href="">
+							<i class="users icon"></i>
+						</a>
+					</div>
+				</div>
+				<div class="communicators">
+					<p>
+						<i class="dropdown icon"></i>
+						紧急联系人 3人
+					</p>
+					<div class="ui middle aligned animated list">
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>
+						<i class="dropdown icon"></i>
+						同学 3人
+					</p>
+					<div class="ui middle aligned animated list">
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>
+						<i class="dropdown icon"></i>
+						朋友 3人
+					</p>
+					<div class="ui middle aligned animated list">
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img class="ui avatar image" src="../images/li.jpg">
+							<div class="content">
+								<div class="header">
+									李阳
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-info">
+		<div class="icons">
+			<a>
+				<i class="qq icon"></i>
+			</a>
+			<a>
+				<i class="weibo icon"></i>
+			</a>
+			<a>
+				<i class="wechat icon"></i>
+			</a>
+		</div>
+		<div class="rights">
+			Copyright © 2013-2015 E_HELP_WORKSHOP. All rights reserved.
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/semantic.min.js"></script>
+	<script type="text/javascript" src="../js/user.js"></script>
+</body>
+</html>

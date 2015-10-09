@@ -1,0 +1,97 @@
+div.ui.segments {
+	width: 1000px;
+	margin: 30px auto 0 auto;
+}
+
+.segments .secondary p {
+	text-indent: 20px;
+}
+.segments div:not(.secondary) p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.right.floated.ui.image {
+	width: 50px;
+	height: 50px;
+}
+
+.cards .card {
+	margin-left: 24px !important;
+	height: 190px !important;
+}
+
+.card .content .description {
+	text-indent: 15px;
+}
+
+.photos {
+	width: 1000px;
+	margin: 50px auto 20px auto;
+	height: 400px;
+}
+
+.photos img {
+	width: 300px;
+}
+
+.photos img:nth-child(1) {
+	transform: rotate(30deg);
+	position: relative;
+}
+
+.photos img:nth-child(2) {
+	position: relative;
+	z-index: 999;
+}
+
+.photos p {
+	margin-top: 90px;
+	text-indent: 35px;
+}
+
+.photos img:nth-child(3) {
+	position: relative;
+	transform: rotate(330deg);
+}
+
+.feedback {
+	width: 1000px;
+	margin: 30px auto 0 auto;
+}
+
+.feedback-title {
+	text-align: center;
+}
+
+.via-title {
+	width: 200px;
+	margin: 0 auto;
+	border-bottom: 1px #888 solid; 
+	border-top: 1px #888 solid;
+	text-align: center;
+}
+
+.field label {
+	font-size: 15px !important;
+}
+
+.technique, .market, .bussiness {
+	text-align: center;
+} 
+
+.technique .header, .market .header, .bussiness .header {
+	font-size: 25px !important;
+}
+
+.technique p, .market p, .bussiness p {
+	font-size: 14px !important;
+	text-indent: 0 !important;
+	text-align: left !important;
+	color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.technique .description, .market .description, .bussiness .description {
+	margin-top: 17px !important;
+}
